@@ -1,0 +1,97 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* the entire html body */
+html,body{
+    height: 100%;  
+
+
+} 
+.main-title h1{
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+  top: 188px;
+
+ }
+
+
+body{
+    
+}
+
+.image{
+    position: fixed;
+    height: 100%;
+    background-image:url(CounterApp\ Image.jpg) ;
+    filter: blur(2px);
+}
+
+.container{
+ display: flex; /* centers elements*/
+ align-items: center;
+ justify-content: center; /* Moves elements to the center */
+ height: 100%; /*Research more*/
+}
+
+
+.card-body{
+    background-color:#FADADD;
+    padding: 25px; /*expands card-body size*/
+    border-radius: 10px; /*Curves out the border curve*/
+    text-align: center;
+}
+
+.card-body h1{
+    margin-bottom: 28px;
+    font-size: 70px;
+}
+
+.card-btn button{
+    /* entire button element */
+ padding: 10px 35px; /* 20px(top bottom) 50px(left right) */   
+ /* changes the size of the frame */
+ color: black;
+ font-size:15px;
+ font-weight: bold;
+ margin: 5px;
+ cursor: pointer;
+ border: 0;
+ border-radius: 5px;
+}
+
+
+/* Styling the buttons */
+/*1 */
+button#increament{
+    background-color:#FFD000;
+}
+button#increament:hover{
+    background-color:#f79f1f;
+    color: white;
+}
+
+
+/*2*/
+button#reset{
+    background-color:#D2042D;    
+}
+
+button#reset:hover{
+    background-color:#ff2c2c;
+    color: white;
+}
+
+/*3*/
+button#decreament{
+    background-color:#5c9348;    
+}
+
+button#decreament:hover{
+    background-color:#8fc640;
+    color: white;
+}
