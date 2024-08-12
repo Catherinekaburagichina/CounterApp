@@ -14,7 +14,7 @@ html,body{
   display: flex;
   justify-content: center;
 
-  position: relative;
+  position: relative; /* allows the top:188 to move down css */
   top: 188px;
 
  }
@@ -27,7 +27,6 @@ body{
 .image{
     position: fixed;
     height: 100%;
-    background-image:url(CounterApp\ Image.jpg) ;
     filter: blur(2px);
 }
 
@@ -40,7 +39,8 @@ body{
 
 
 .card-body{
-    background-color:#FADADD;
+    /* background-color:#FADADD; */
+    background-color:#FFB996;
     padding: 25px; /*expands card-body size*/
     border-radius: 10px; /*Curves out the border curve*/
     text-align: center;
@@ -77,21 +77,25 @@ button#increament:hover{
 
 
 /*2*/
-button#reset{
+#reset{
     background-color:#D2042D;    
 }
 
-button#reset:hover{
+#reset:hover{
     background-color:#ff2c2c;
     color: white;
 }
 
 /*3*/
-button#decreament{
+#decreament{
     background-color:#5c9348;    
 }
 
-button#decreament:hover{
+#decreament:hover{
     background-color:#8fc640;
     color: white;
 }
+
+
+/* Initialize count */
+/* Increase or */
